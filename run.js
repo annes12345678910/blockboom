@@ -16,6 +16,7 @@ const iframe = document.getElementById("output");
 
 const runCode = () => {
   let code = Blockly.JavaScript.workspaceToCode(workspace);
+  console.log(code)
   code += "\nstart();";
   iframe.srcdoc = `
     <script type="module">
