@@ -1,1 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>BlockBoom</title>
+    <script src="https://unpkg.com/blockly/blockly.min.js"></script>
+    <style>
+      body { margin: 0; overflow: hidden; }
+      #blocklyDiv { height: 100vh; width: 50vw; float: left; }
+      #output { height: 100vh; width: 50vw; float: left; border: none; }
+    </style>
+  </head>
+  <body>
+    <div id="blocklyDiv"></div>
+    <iframe id="output"></iframe>
 
+    <script type="module" src="./run.js"></script>
+  </body>
+</html>
